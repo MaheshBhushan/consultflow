@@ -1,0 +1,30 @@
+From: Dana Whitfield <dana.whitfield@northwind-logistics.example>
+To: billing@consultancy.example
+Cc: ap@northwind-logistics.example
+Subject: Invoice INV-2026-0412 disputed - duplicate line items
+Date: Tue, 03 Nov 2026 09:14:00 +0100
+Message-ID: <20261103091400.4412@northwind-logistics.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+We received invoice INV-2026-0412 dated 2026-10-28 for a total of $18,450.00.
+Lines 4 and 7 both bill the warehouse data migration workshop, which only took place once on Oct 14, 2026.
+Please issue a corrected invoice without the duplicate line of $3,200.00 so the total becomes $15,250.00.
+Our payment run closes on 2026-11-20, so we need the corrected document before then.
+Questions about the purchase order can go to ap@northwind-logistics.example.
+
+Thanks,
+Dana Whitfield
+Finance Operations, Northwind Logistics
+
+--b1
+Content-Type: text/plain; name="po-7781.txt"
+Content-Disposition: attachment; filename="po-7781.txt"
+
+PO 7781 - consulting services, cap 20,000 USD
+--b1--
